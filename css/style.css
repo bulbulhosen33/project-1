@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: sans-serif;
+}
+/*NAVBAR*/
+.navbar-brand img {
+    height: 50px;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: black;
+    background: rgba(145, 227, 240, 0.99);
+    border-radius: 5px;
+}
+
+/*<!--  LANDING SECTION START-->*/
+
+
+#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../css/hero_2.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 90vh;
+    background-attachment: fixed;
+}
+.home-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home-center h1{
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family:cursive;
+}
+.home-center p{
+    color: white;
+    font-weight: 500;
+}
+.home-btn .btn-shop{
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 0px 25px 0px 25px;
+    
+}
+.home-btn .btn-shop:hover{
+    color: black;
+    background: white;
+    transition: 0.75s;
+}
+.home-btn .btn-member{
+    border: 2px solid white;
+    color: black;
+    font-size: 20px;
+    padding: 5px 15px;
+    background: #fff;
+    border-radius: 25px 0px 25px 0px;
+}
+.home-btn .btn-member:hover {
+    color: white;
+    background: none;
+    transition: 0.75s;
+}
+
+
+
+
+/*PRODUCT SECTION STARTS*/
+
+
+.hover-img{
+    overflow: hidden;
+}
+.hover-img img{
+    transition: 0.80s;
+}
+.hover-img:hover img{
+    transform: scale(1.2);
+    
+}
+.btn-cart{
+    border: 2px solid black;
+    background: #000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.btn-cart:hover{
+    background: none;
+    color: black;
+    border-radius: 5px;
+    transition: 0.75s;
+    text-decoration: none;
+}
+.btn-view{
+    border: 2px solid black;
+    background: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.btn-view:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.75s;
+    text-decoration: none;
+}
+
+
+/*testimonal*/
+
+
+.carousel-inner {
+    text-align: center;
+}
+.carousel-inner .carousel-item img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

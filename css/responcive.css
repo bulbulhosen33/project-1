@@ -1,0 +1,44 @@
+/*small devise*/
+/*
+@media screen and (min-device-width: 100px) and (max-device-width: 575px){
+    .home-center h1{
+    
+    font-size: 30px;
+}
+}
+*/
+/*mediam devise*/
+/*
+@media only screen and(min-width: 576px) and (max-width: 767px){
+    
+}
+*/
+
+/*
+@media only screen and (max-width: 575px){
+    .home-center h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:cursive;
+}*/
+@media screen and (min-width: 100px) and (max-width: 575px) {
+    .home-center h1{
+        font-size: 8vw;
+        margin-top: 20px;
+    }
+    .home-center p{
+        font-size: 14px;
+    }
+    .home-btn .btn-member{
+        margin-top: 15px;
+    }
+    .home-btn .btn-shop{
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .home-center h1{
+        font-size: 12vw;
+    }
+}
